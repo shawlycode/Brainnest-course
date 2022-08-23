@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Italianno&family=Nunito:wght@300;400;500;600&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;1,300&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,500&display=swap");
+
+* {
+  /* background-color: whitesmoke; */
+  font-family: "Roboto", sans-serif;
+}
+.colors_Container {
+  background-color: rgb(2, 2, 2);
+  padding: 30px;
+}
+.colors_Container h1 {
+  color: orange;
+}
+h2 {
+  color: rgb(232, 7, 206);
+}
+h3 {
+  color: #56fb0a;
+}
+.colors_Container :last-child {
+  color: hsl(0, 100%, 50%);
+}
