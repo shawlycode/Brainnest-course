@@ -1,0 +1,31 @@
+.image-container {
+  /* width: 1024px; */
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.image-container img {
+  width: 300px;
+  margin: 10px;
+}
+.image-container .image_last img {
+  border-radius: 30px;
+}
+#image-round {
+  border-radius: 50%;
+}
+.img h2 {
+  text-align: center;
+  font-size: 34px;
+  font-weight: bold;
+}
+h1 {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+span {
+  color: rgb(255, 5, 151);
+  font-family: fantasy;
+  font-weight: 900;
+}
