@@ -8,15 +8,27 @@
   background-color: rgb(2, 2, 2);
   padding: 30px;
 }
-.colors_Container h1 {
+.colors_Container .header-1 h1 {
   color: orange;
+  background-color: #e40505;
+  padding: 10px;
+  width: 500px;
 }
-h2 {
-  color: rgb(232, 7, 206);
+.colors_Container .header-2 h2 {
+  color: rgb(227, 19, 203);
+  background-color: rgb(255, 187, 2);
+  padding: 10px;
+  width: 500px;
 }
-h3 {
-  color: #56fb0a;
+.colors_Container .header-3 h3 {
+  color: #0d130b;
+  background-color: rgb(46, 220, 3);
+  padding: 10px;
+  width: 500px;
 }
 .colors_Container :last-child {
   color: hsl(0, 100%, 50%);
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  width: 500px;
 }
