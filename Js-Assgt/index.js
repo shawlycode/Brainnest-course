@@ -4,6 +4,8 @@
 // Rock destroys scissors, Scissors cuts paper and Paper covers Rock
 
 /*----Step 1:Get player choice and convert input to accept any character */
+const choice = prompt("Enter rock,paper or scissors");
+const playerInput = choice;
 
 const playerPlay = (playerInput) => {
   playerInput = playerInput.toLowerCase();
