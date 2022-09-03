@@ -1,0 +1,22 @@
+body {
+  text-align: center;
+  font-size: 20px;
+}
+.container {
+  background-color: rgb(189, 243, 243);
+  width: fit-content;
+  align-items: center;
+  margin-left: 600px;
+  margin-right: auto;
+  padding: 10px;
+}
+#display {
+  background-color: rgb(202, 224, 180);
+  padding: 3px;
+}
+button {
+  padding: 5px;
+  background-color: rgb(41, 147, 218);
+  color: aliceblue;
+  font-size: 20px;
+}
