@@ -25,35 +25,37 @@ const computerPlay = () => {
 };
 
 const playRound = (playerSelection, computerSelection) => {
-  if (playerSelection === computerSelection) {
-    return " Is a Draw game";
-  }
-  if (playerSelection === "rock") {
-    if (computerSelection === "paper") {
-      return "You Lose! Paper beats Rock!";
-    } else {
-      return "Computer Won!!";
+  for (let i = 0; i < 5; i++) {
+    if (playerSelection === computerSelection) {
+      return " Is a Draw game";
     }
-  }
-  if (playerSelection === "scissors") {
-    if (computerSelection === "paper") {
-      return "Yeah Buddy: YOU WON!";
-    } else {
-      return "computer LOSE! Hahahha!!!";
+    if (playerSelection === "rock") {
+      if (computerSelection === "paper") {
+        return "You Lose! Paper beats Rock!";
+      } else {
+        return "Computer Won!!";
+      }
     }
-  }
-  if (playerSelection === "scissors") {
-    if (computerSelection === "rock") {
-      return "Sorry Buddy: YOU LOSE!";
-    } else {
-      return "Computer Won!!";
+    if (playerSelection === "scissors") {
+      if (computerSelection === "paper") {
+        return "Yeah Buddy: YOU WON!";
+      } else {
+        return "computer LOSE! Hahahha!!!";
+      }
     }
-  }
-  if (playerSelection === "paper") {
-    if (computerSelection === "scissors") {
-      return "Sorry Buddy: YOU LOSE!";
-    } else {
-      return "Computer Won!!";
+    if (playerSelection === "scissors") {
+      if (computerSelection === "rock") {
+        return "Sorry Buddy: YOU LOSE!";
+      } else {
+        return "Computer Won!!";
+      }
+    }
+    if (playerSelection === "paper") {
+      if (computerSelection === "scissors") {
+        return "Sorry Buddy: YOU LOSE!";
+      } else {
+        return "Computer Won!!";
+      }
     }
   }
 };
@@ -66,4 +68,5 @@ const game = () => {
 
   console.log("Result: " + playRound(playerChoice, computerChoice));
 };
+
 game();
