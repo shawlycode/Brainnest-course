@@ -17,28 +17,31 @@ function Area() {
 
 /*Write a JavaScript program to find the diagonal of a square where the length of each
 side is 9.*/
-// function findDiagonal(s) {
-//   return Math.sqrt(2) * s;
-// }
-// var S = 9;
 
-// document.write(findDiagonal(S).toFixed(6));
+function findDiagonal(s) {
+  return Math.sqrt(2) * s;
+}
+var S = 9;
+
+document.write(findDiagonal(S).toFixed(6));
 
 /*Write a JavaScript program that accepts two integers and displays the larger of the two.*/
-// const integer1 = parseInt(prompt("Enter first number:"));
-// const integer2 = parseInt(prompt("Enter second number:"));
-// if (integer1 == integer2) {
-//   console.log(integer1 + " is equal to " + integer2);
-// } else if (integer1 > integer2) {
-//   console.log(integer1 + " is larger than " + integer2);
-// } else {
-//   console.log(integer1 + " is lesser than " + integer2);
-// }
+
+const integer1 = parseInt(prompt("Enter first number:"));
+const integer2 = parseInt(prompt("Enter second number:"));
+if (integer1 == integer2) {
+  console.log(integer1 + " is equal to " + integer2);
+} else if (integer1 > integer2) {
+  console.log(integer1 + " is larger than " + integer2);
+} else {
+  console.log(integer1 + " is lesser than " + integer2);
+}
 
 // /*Write a JavaScript program that checks whether an integer is an even or an odd number.*/
-// const number = prompt("Enter a number: ");
-// if (number % 2 == 0) {
-//   console.log("The number is even.");
-// } else {
-//   console.log("The number is odd.");
-// }
+
+const number = prompt("Enter a number: ");
+if (number % 2 == 0) {
+  console.log("The number is even.");
+} else {
+  console.log("The number is odd.");
+}

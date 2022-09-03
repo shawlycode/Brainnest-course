@@ -4,19 +4,41 @@ body {
 }
 .container {
   background-color: rgb(189, 243, 243);
-  width: fit-content;
-  align-items: center;
-  margin-left: 600px;
+
   margin-right: auto;
   padding: 10px;
 }
 #display {
-  background-color: rgb(202, 224, 180);
-  padding: 3px;
+  background-color: rgb(6, 152, 23);
+  padding: 10px;
 }
 button {
-  padding: 5px;
+  padding: 15px;
   background-color: rgb(41, 147, 218);
   color: aliceblue;
   font-size: 20px;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+}
+input {
+  border: none;
+  padding: 15px;
+  background-color: rgb(149, 162, 164);
+  outline: none;
+}
+input::placeholder {
+  font-size: 12px;
+  color: #fff;
+}
+.btn {
+  background-color: black;
+  margin-bottom: 100px;
+  width: 200px;
+  padding: 10px;
+  margin-top: 50px;
+}
+.btn a {
+  color: white;
+  text-decoration: none;
 }
