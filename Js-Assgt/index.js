@@ -1,4 +1,5 @@
 const playerPlay = (playerInput) => {
+  playerInput = window.prompt("Please type 'Rock', 'Paper' or 'Scissors'");
   playerInput = playerInput.toLowerCase();
   if (
     playerInput === "rock" ||
